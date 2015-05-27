@@ -1,3 +1,16 @@
+body,text {
+	font-family: 'Roboto Condensed', sans-serif;
+}
 .y.axis text {
 	color:black;
+}
+.y.axis .domain {
+	fill:none;
+	stroke: rgb(0, 0, 0);
+  	stroke-width: 1px;
+}
+text.xaxis {
+	text-anchor:middle;
+	font-size:12px;
+	text-transform:capitalize;
 }
