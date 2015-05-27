@@ -81,7 +81,7 @@ function addData(d) {
 
 	data.forEach(function(e){
 		e.stamps = _.filter(e.stamps, function(f) {
-			return f > Date.now() - 10 * 1000;
+			return f > Date.now() - 30 * 1000;
 		});
 		e.value = e.stamps.length;
 	});
